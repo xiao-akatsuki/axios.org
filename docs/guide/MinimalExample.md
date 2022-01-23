@@ -6,17 +6,17 @@
 *Performing a `GET` request*
 
 ```java
+// Make a request for a user with a given ID
 Axios.get(
-	"RollCall/people/axiosGet" 
+	"/user?ID=12345" 
 ).then(response ->{
 	System.out.println(response);
 });
-```
 
-```java
+// Optionally the request above could also be done as
 Axios.get(
-	"RollCall/people/axiosGet",
-	new Request().add("name", "xiaoXunYao") 
+	"/user",
+	new Request().add("ID", "12345") 
 ).then(value ->{
 	System.out.println(value);
 });
