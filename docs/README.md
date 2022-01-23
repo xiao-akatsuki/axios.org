@@ -2,7 +2,7 @@
 sidebar: false
 ---
 
-<p align="center"><img width="200" src="/axios.org/logo/logo.png" alt="axios logo"></p>
+<p align="center"><img width="200" src="/axios.org/logo/logo.svg" alt="axios logo"></p>
 
 <p align="center">
 	<a href="https://mvnrepository.com/artifact/io.github.xiao-organization/axios">
