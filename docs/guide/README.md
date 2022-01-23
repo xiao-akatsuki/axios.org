@@ -1,39 +1,21 @@
----
-sidebarDepth: 2
----
+# Introduction
 
-# Getting Started
+In this `axios`, the simplest code is used to send [HTTP](https://datatracker.ietf.org/doc/html/rfc8740) requests. You don't need to worry about how to send it, you only need to care about the code of business logic.
 
-*Promise based HTTP client for the java*
+## How It Works
 
-## What is Axios?
+`axios` does a layer of encapsulation for JDK's HttpUrlConnection, which simplifies operations such as HTTPS requests, file uploads, and cookie memory, making Http requests extremely simple.
 
-Axios is a promise-based HTTP client for java. It is isomorphic (= it can run in java with the same codebase). On the server-side, it uses the native java `HttpUrlConnection`.
+## Why Not ... ?
 
-## Features
+### HttpClient
 
-- Make XMLHttpRequests from the server
-- Make HTTP requests from java
-- Supports the Promise API
-- Intercept request and response
-- Transform request and response data
-- Cancel requests
+HttpClient is relatively large, and the API is relatively difficult to use, so it does not use many scenarios.
 
-## Installing
+### Jodd-http
 
-:::: code-group
-::: code-group-item Maven
-```xml:no-line-numbers
-<dependency>
-  <groupId>io.github.xiao-organization</groupId>
-  <artifactId>axios</artifactId>
-  <version>1.0.0</version>
-</dependency>
-```
-:::
-::: code-group-item Gradle
-```xml:no-line-numbers
-implementation 'io.github.xiao-organization:axios:1.0.0'
-```
-:::
-::::
+In some scenarios, a lot of learning costs are required.
+
+### okHttp
+
+Special and high learning costs for versions
