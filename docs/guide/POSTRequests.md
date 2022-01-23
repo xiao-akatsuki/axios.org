@@ -2,24 +2,12 @@
 
 *How to perform POST requests with Axios*
 
-## Exception
-
-*Performing a `POST` request*
+**Performing a `POST` request**
 
 ```java
 Axios.post(
-	"demo/base/remove"
-).then(value ->{
-	System.out.println(value);
-});
-```
-
-
-
-```java
-Axios.post(
-	url,
-	new Body().add("name", "xiaoXunYao"),
+	"/user",
+	new Body().add("firstName", "Fred").add("lastName","Flintstone"),
 ).then(value ->{
 	System.out.println(value);
 });
