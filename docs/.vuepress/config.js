@@ -2,7 +2,7 @@ module.exports = {
     base: '/axios.org/',
     lang: 'en-US',
     title: 'axios',
-    description: 'This is axios site',
+    description: 'A make it easier for java to send HTTPS',
     themeConfig: {
       navbar: [
         {
@@ -18,7 +18,7 @@ module.exports = {
           link: 'https://github.com/xiao-akatsuki/axios/pulls'
         },
         {
-          text: '语言',
+          text: 'Languages',
           children: [
             {
               text: 'English',
@@ -42,14 +42,15 @@ module.exports = {
       ],
       sidebar: [
         '/guide/README.md',
+        '/guide/getting-started.md',
         '/guide/MinimalExample.md',
         '/guide/POSTRequests.md'
       ],
-      sidebarDepth: 2,
+      sidebarDepth: 4,
       logo: '/logo/logo.svg',
       repoLabel:'axios',
       repo: 'xiao-akatsuki/axios',
       editLink:false,
-      darkMode:false,
+      darkMode:true,
     },
   }
