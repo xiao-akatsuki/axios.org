@@ -1,29 +1,18 @@
 ---
-sidebar: false
+home: true
+title: Home
+heroImage: logo/logo.svg
+actions:
+  - text: Get Started
+    link: /guide/getting-started.html
+    type: primary
+  - text: Introduction
+    link: /guide/
+    type: secondary
+footer: MIT Licensed | Copyright © 2022-present xiaoxunyao
 ---
 
-<p align="center"><img width="200" src="/axios.org/logo/logo.svg" alt="axios logo"></p>
-
-<p align="center">
-	<a href="https://mvnrepository.com/artifact/io.github.xiao-organization/axios">
-		<img src="https://img.shields.io/maven-central/v/io.github.xiao-organization/axios.svg" alt="maven-central">
-	</a>
-    &nbsp
-	<a href="https://www.javadoc.io/doc/io.github.xiao-organization/axios">
-		<img src="https://www.javadoc.io/badge/io.github.xiao-organization/axios.svg" alt="java-doc">
-	</a>
-</p>
-
-<h1 align="center">axios</h1>
-
-<h3 align="center">A make it easier for java to send HTTPS</h3>
-
-<br>
-
-****
-
-<br>
-
+### As easy as counting.
 
 :::: code-group
 ::: code-group-item install
