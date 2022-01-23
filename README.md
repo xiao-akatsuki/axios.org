@@ -6,12 +6,22 @@ This site is built with VuePress. Site content is written in Markdown format loc
 
 1. Clone repository
 
-`git clone https://github.com/xiao-akatsuki/axios.org.git`
+```bash
+git clone https://github.com/xiao-akatsuki/axios.org.git`
+```
 
 2. Install dependencies
 
-`yarn # or npm install`
+```bash
+yarn install
+# or
+npm install
+```bash
 
 3. Start local development environment
 
-`yarn docs:dev # or npm run serve`
+```bash
+yarn docs:dev 
+# or 
+npm run docs:dev
+```
