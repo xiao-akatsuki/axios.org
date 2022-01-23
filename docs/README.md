@@ -27,7 +27,7 @@ footer: MIT Licensed | Copyright © 2022-present xiaoxunyao
 ::: code-group-item using
 ```java:no-line-numbers
 Axios.get(
-	"RollCall/people/axiosGet" 
+	"/user?ID=12345" 
 ).then(response ->{
 	System.out.println(response);
 });
