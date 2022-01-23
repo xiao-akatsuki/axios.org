@@ -16,8 +16,7 @@ git clone https://github.com/xiao-akatsuki/axios.org.git`
 yarn install
 # or
 npm install
-```bash
-
+```
 3. Start local development environment
 
 ```bash
