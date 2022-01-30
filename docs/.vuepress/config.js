@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/',
+    base: '/axios.org/',
     lang: 'en-US',
     title: 'axios',
     description: 'A make it easier for java to send HTTPS',
